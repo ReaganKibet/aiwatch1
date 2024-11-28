@@ -181,5 +181,122 @@ insert into organization_documents(url, title, publication_date, modified_date, 
         'AI safety', /* cause_area */
         'The article discusses Anthropic''s Responsible Scaling Policy and the creation of the Long-Term Benefit Trust, with a focus on governance adjustments, including the involvement of the Alignment Research Center, to ensure responsible AI development for long-term societal benefit.' /* notes */
     )
+    ,(
+        'https://forum.effectivealtruism.org/posts/q49obZkQujkYmnFWY/vael-gates-risks-from-advanced-ai-june-2022', /* url */
+        'Vael Gates: Risks from Advanced AI (June 2022)', /* title */
+        '2022-06-14', /* publication_date */
+        NULL, /* modified_date */
+        'Vael Gates', /* author */
+        'Effective Altruism Forum', /* publisher */
+        'Alignment Research Center', /* affected_organizations */
+        NULL, /* affected_people */
+        'Third-party commentary on organization', /* document_scope */
+        'AI safety', /* cause_area */
+        'Vael Gates'' article discusses risks from advanced AI, emphasizing insights from the Alignment Research Center''s work on scalable oversight and alignment challenges.' /* notes */
+    )
+    ,(
+        'https://forum.effectivealtruism.org/posts/bHB5mhZJ9jpLxA3d2/ea-organization-updates-june-2023', /* url */
+        'EA Organization Updates: June 2023', /* title */
+        '2023-06-16', /* publication_date */
+        NULL, /* modified_date */
+        'JP Addison', /* author */
+        'Effective Altruism Forum', /* publisher */
+        'Alignment Research Center', /* affected_organizations */
+        NULL, /* affected_people */
+        'General discussion of organizational practices', /* document_scope */
+        'AI safety', /* cause_area */
+        'The article provides updates on various EA organizations, with the Alignment Research Center highlighting open theoretical researcher roles offering competitive salaries in Berkeley or remote, focusing on advancing AI alignment solutions.' /* notes */
+    )
+     ,(
+        'https://forum.effectivealtruism.org/posts/CrmE6T5A8JhkxnRzw/future-matters-8-bing-chat-ai-labs-on-safety-and-pausing', /* url */
+        'Future Matters #8: Bing Chat, AI labs on safety, and pausing Future Matters', /* title */
+        '2023-03-21', /* publication_date */
+        NULL, /* modified_date */
+        'Pablo| Matthew Vandermerwe', /* author */
+        'Effective Altruism Forum', /* publisher */
+        'Alignment Research Center', /* affected_organizations */
+        NULL, /* affected_people */
+        'General discussion of organizational practices', /* document_scope */
+        'AI safety', /* cause_area */
+        'The article highlights discussions on AI labs'' safety efforts, focusing on the Alignment Research Center''s approach to balancing research and governance, alongside lessons from Open Philanthropy Project''s hiring practices.' /* notes */
+    )
+    ,(
+        'https://forum.effectivealtruism.org/posts/CrmE6T5A8JhkxnRzw/future-matters-8-bing-chat-ai-labs-on-safety-and-pausing', /* url */
+        'Summaries of top forum posts (1st to 7th May 2023)', /* title */
+        '2023-05-09', /* publication_date */
+        NULL, /* modified_date */
+        'Zoe Williams', /* author */
+        'Effective Altruism Forum', /* publisher */
+        'Alignment Research Center', /* affected_organizations */
+        NULL, /* affected_people */
+        'General discussion of organizational practices', /* document_scope */
+        'AI safety', /* cause_area */
+        'The document provides a weekly summary of EA forum posts, covering AI safety, alignment research career advice, and funding discussions, with highlights on initiatives like the Alignment Research Center and lessons learned from hiring in related fields.' /* notes */
+    )
+    ,(
+        'https://forum.effectivealtruism.org/posts/CrmE6T5A8JhkxnRzw/future-matters-8-bing-chat-ai-labs-on-safety-and-pausing', /* url */
+        'Critiques of prominent AI safety labs: Conjecture', /* title */
+        '2023-06-12', /* publication_date */
+        NULL, /* modified_date */
+        'Omega', /* author */
+        'Effective Altruism Forum', /* publisher */
+        'Alignment Research Center', /* affected_organizations */
+        NULL, /* affected_people */
+        'General discussion of organizational practices', /* document_scope */
+        'AI safety', /* cause_area */
+        'The article critiques prominent AI safety labs, including the Alignment Research Center, highlighting lessons from Open Philanthropy Project''s hiring processes and their implications for improving alignment research hiring practices.' /* notes */
+    )
+    ,(
+        'https://forum.effectivealtruism.org/posts/Y3sWcbcF7np35nzgu/without-specific-countermeasures-the-easiest-path-to-1', /* url */
+        'Without specific countermeasures, the easiest path to transformative AI likely leads to AI takeover', /* title */
+        '2022-06-18', /* publication_date */
+        NULL, /* modified_date */
+        'Ajeya Cotra', /* author */
+        'Effective Altruism Forum', /* publisher */
+        'Alignment Research Center', /* affected_organizations */
+        NULL, /* affected_people */
+        'General discussion of organizational practices', /* document_scope */
+        'AI safety', /* cause_area */
+        'Ajeya Cotra from the Alignment Research Center outlines how the "racing forward" and "naive safety effort" assumptions in developing transformative AI without countermeasures could lead to AI takeover, emphasizing the risks of training models like "Alex" with Human Feedback on Diverse Tasks (HFDT).' /* notes */
+    )
+    ,(
+        'https://forum.effectivealtruism.org/posts/GcYTpFBfXx7WCgza6/how-to-pursue-a-career-in-ai-governance-and-coordination', /* url */
+        'How to pursue a career in AI governance and coordination', /* title */
+        '2023-09-25', /* publication_date */
+        NULL, /* modified_date */
+        'Cody Fenwick| 80000_Hours', /* author */
+        'Effective Altruism Forum', /* publisher */
+        'Alignment Research Center', /* affected_organizations */
+        NULL, /* affected_people */
+        'General discussion of organizational practices', /* document_scope */
+        'AI safety', /* cause_area */
+        'The article "How to Pursue a Career in AI Governance and Coordination" by Cody Fenwick discusses the growing interest in AI governance and the importance of managing AI risks as the technology rapidly advances. ' /* notes */
+    )
+    ,(
+        'https://forum.effectivealtruism.org/posts/GcYTpFBfXx7WCgza6/how-to-pursue-a-career-in-ai-governance-and-coordination', /* url */
+        'A bird''s eye view of ARC''s research', /* title */
+        '2024-10-23', /* publication_date */
+        NULL, /* modified_date */
+        'Jacob Hilton', /* author */
+        'Alignment Research Center', /* publisher */
+        'Alignment Research Center', /* affected_organizations */
+        NULL, /* affected_people */
+        'Organizational practices', /* document_scope */
+        'AI safety', /* cause_area */
+        'The article provides an overview of ARC''s research on scalable alignment, detailing its methodologies such as the "builder-breaker" approach, and how various pieces of research, including Eliciting Latent Knowledge (ELK) and heuristic explanations, fit into this broader vision.' /* notes */
+    )
+     ,(
+        'https://forum.effectivealtruism.org/posts/GcYTpFBfXx7WCgza6/how-to-pursue-a-career-in-ai-governance-and-coordination', /* url */
+        'Research update: Towards a Law of Iterated Expectations for Heuristic Estimators', /* title */
+        '2024-10-23', /* publication_date */
+        NULL, /* modified_date */
+        'Eric Neyman', /* author */
+        'Alignment Research Center', /* publisher */
+        'Alignment Research Center', /* affected_organizations */
+        NULL, /* affected_people */
+        'Organizational practices', /* document_scope */
+        'AI safety', /* cause_area */
+        'ARC''s paper "Towards a Law of Iterated Expectations for Heuristic Estimators" explores formalizing heuristic estimators and introduces the principle of unpredictable errors to improve neural network understanding, proposing applications like mechanistic anomaly detection and safe distillation.' /* notes */
+    )
 ;
 
